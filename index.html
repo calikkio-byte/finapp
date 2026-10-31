@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Finanze</title>
+<meta name="theme-color" content="#f5f6f8">
+<meta name="description" content="Gestione minimalista di portafogli, abbonamenti e scadenze, personale e business.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="toast" role="status"></div>
+<datalist id="cats">
+  <option>Casa</option><option>Spesa</option><option>Trasporti</option><option>Carburante</option>
+  <option>Salute</option><option>Svago</option><option>Ristoranti</option><option>Viaggi</option>
+  <option>Abbonamenti</option><option>Bollette</option><option>Assicurazioni</option><option>Affitto</option>
+  <option>Stipendio</option><option>Rimborsi</option><option>Tasse e imposte</option><option>Fornitori</option>
+  <option>Fatture</option><option>Consulenze</option><option>Altro</option>
+</datalist>
+<datalist id="people"></datalist>
+<input type="file" id="file" accept="application/json,.json" hidden>
+<script src="app.js"></script>
+</body>
+</html>
